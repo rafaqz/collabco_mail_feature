@@ -31,3 +31,10 @@ features[variable][] = user_mail_status_blocked_body
 features[variable][] = user_mail_status_blocked_notify
 features[variable][] = user_mail_status_blocked_subject
 features[variable][] = user_mail_status_canceled_body
+
+
+; Information added by drush on 2013-08-22
+version = "unknown"
+project = "collabco_mail_feature"
+datestamp = "1377179608"
+
