@@ -24,7 +24,7 @@ function collabco_mail_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mail';
-  $strongarm->value = 'admin@example.com';
+  $strongarm->value = 'noreply@innovationnetwork.org';
   $export['site_mail'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -44,7 +44,7 @@ NOTE: The cancellation of your account is not reversible.<br>
 This link expires in one day and nothing will happen if it is not used.<br>
 <br>
 Kind Regards,<br>
-The META Team<br>';
+The [site:name] team<br>';
   $export['user_mail_cancel_confirm_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -91,7 +91,7 @@ You may now log in by clicking this link or copying and pasting it to your brows
 This link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it\'s not used.<br>
 <br>
 Kind Regards,<br>
-The META Team<br>';
+The [site:name] team<br>';
   $export['user_mail_password_reset_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -107,7 +107,7 @@ The META Team<br>';
   $strongarm->name = 'user_mail_register_admin_created_body';
   $strongarm->value = 'Hello [user:name],<br>
 <br>
-We\'ve created a pre-approved account for you on the [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:<br>
+We\'ve created a pre-approved account for you on the [site:name]. You may now log in by clicking this link or copying and pasting it to your browser:<br>
 <br>
 [user:one-time-login-url]<br>
 <br>
@@ -119,7 +119,7 @@ username: [user:name]<br>
 password: [the password that you will create after you click the link above]<br>
 <br>
 Kind Regards,<br>
-The META Team';
+The [site:name] team';
   $export['user_mail_register_admin_created_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -147,7 +147,7 @@ username: [user:name]<br>
 password: [the password that you will create after you click the link above]<br>
 <br>
 Kind Regards,<br>
-The META Team<br>';
+The [site:name] team<br>';
   $export['user_mail_register_no_approval_required_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -166,7 +166,7 @@ The META Team<br>';
 Thank you for registering at the [site:name]. Your application for an account is currently pending approval. Once it has been approved, you will receive another e-mail containing information about how to log in, set your password, and other details.<br>
 <br>
 Kind Regards,<br>
-The META team';
+The [site:name] team';
   $export['user_mail_register_pending_approval_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -196,7 +196,7 @@ username: [user:name]<br>
 password: [the password that you will create after you click the link above]<br>
 <br>
 Kind Regards,<br>
-The META Team';
+The [site:name] team';
   $export['user_mail_status_activated_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -224,7 +224,7 @@ An administrator on the [site:name] has blocked your account.<br>
 If this is unexpected or you have further questions, feel free to contact us at contact@meta.org.au<br>
 <br>
 Kind Regards,<br>
-The META Team<br>';
+The [site:name] team<br>';
   $export['user_mail_status_blocked_body'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -250,7 +250,7 @@ The META Team<br>';
 Your account on the [site:name] has been canceled. You can reach us at contact@support.au with any questions.<br>
 <br>
 Kind Regards,<br>
-The META Team<br>';
+The [site:name] team<br>';
   $export['user_mail_status_canceled_body'] = $strongarm;
 
   return $export;

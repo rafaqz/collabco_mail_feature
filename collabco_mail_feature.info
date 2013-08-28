@@ -2,12 +2,15 @@ name = Collabco Mail Feature
 core = 7.x
 package = Collabco
 php = 5.2.4
+version = unknown
+project = collabco_mail_feature
 dependencies[] = ctools
 dependencies[] = mailsystem
 dependencies[] = mandrill
 dependencies[] = mandrill_reports
 dependencies[] = mandrill_template
 dependencies[] = strongarm
+datestamp = 1377179608
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[variable][] = mail_system
@@ -31,10 +34,3 @@ features[variable][] = user_mail_status_blocked_body
 features[variable][] = user_mail_status_blocked_notify
 features[variable][] = user_mail_status_blocked_subject
 features[variable][] = user_mail_status_canceled_body
-
-
-; Information added by drush on 2013-08-22
-version = "unknown"
-project = "collabco_mail_feature"
-datestamp = "1377179608"
-
