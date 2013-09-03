@@ -15,7 +15,7 @@ function collabco_mail_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'mail_system';
   $strongarm->value = array(
-    'default-system' => 'DefaultMailSystem',
+    'default-system' => 'MandrillMailSystem',
     'mandrill_test' => 'MandrillMailSystem',
   );
   $export['mail_system'] = $strongarm;
@@ -24,7 +24,7 @@ function collabco_mail_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mail';
-  $strongarm->value = 'noreply@innovationnetwork.org';
+  $strongarm->value = 'noreply@meta.org.au';
   $export['site_mail'] = $strongarm;
 
   $strongarm = new stdClass();
