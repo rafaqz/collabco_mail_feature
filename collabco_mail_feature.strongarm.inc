@@ -17,6 +17,8 @@ function collabco_mail_feature_strongarm() {
   $strongarm->value = array(
     'default-system' => 'MandrillMailSystem',
     'mandrill_test' => 'MandrillMailSystem',
+    'mimemail' => 'MandrillMailSystem',
+    'views_send_direct' => 'MandrillMailSystem',
   );
   $export['mail_system'] = $strongarm;
 

@@ -13,3 +13,10 @@ function collabco_mail_feature_ctools_plugin_api() {
     return array("version" => "1");
   }
 }
+
+/**
+ * Implements hook_views_api().
+ */
+function collabco_mail_feature_views_api() {
+  return array("api" => "3.0");
+}
