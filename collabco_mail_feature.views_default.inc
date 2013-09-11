@@ -104,7 +104,14 @@ function collabco_mail_feature_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'mass-mailer';
+  $handler->display->display_options['path'] = 'admin/people/mass-mailer';
+  $handler->display->display_options['menu']['type'] = 'tab';
+  $handler->display->display_options['menu']['title'] = 'Mass Mailer';
+  $handler->display->display_options['menu']['description'] = 'Send mass mail to all users.';
+  $handler->display->display_options['menu']['weight'] = '24';
+  $handler->display->display_options['menu']['name'] = 'management';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
 
   /* Display: Group Page */
   $handler = $view->new_display('page', 'Group Page', 'group_page');
