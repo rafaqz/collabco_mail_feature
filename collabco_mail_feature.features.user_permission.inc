@@ -33,8 +33,6 @@ function collabco_mail_feature_user_default_permissions() {
     'name' => 'administer views_send',
     'roles' => array(
       'Admin' => 'Admin',
-      'Community Moderator' => 'Community Moderator',
-      'Content Manager' => 'Content Manager',
     ),
     'module' => 'views_send',
   );
