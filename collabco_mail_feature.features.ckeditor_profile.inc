@@ -79,7 +79,9 @@ function collabco_mail_feature_ckeditor_profile_defaults() {
           ),
         ),
       ),
-      'input_formats' => array(),
+      'input_formats' => array(
+        'email' => 'Email',
+      ),
     ),
   );
   return $data;
