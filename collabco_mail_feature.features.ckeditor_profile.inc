@@ -14,7 +14,7 @@ function collabco_mail_feature_ckeditor_profile_defaults() {
       'settings' => array(
         'ss' => 2,
         'default' => 't',
-        'show_toggle' => 't',
+        'show_toggle' => 'f',
         'uicolor' => 'default',
         'uicolor_user' => 'default',
         'toolbar' => '[
