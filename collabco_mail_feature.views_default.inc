@@ -13,7 +13,7 @@ function collabco_mail_feature_views_default_views() {
   $view = new view();
   $view->name = 'mass_mailer';
   $view->description = 'Allows the Community Moderator to send emails to large numbers of users';
-  $view->tag = 'default';
+  $view->tag = 'Mail Feature';
   $view->base_table = 'users';
   $view->human_name = 'Mass Mailer';
   $view->core = 7;
