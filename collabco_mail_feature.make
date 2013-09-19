@@ -18,3 +18,5 @@ projects[mimemail][subdir] = "contrib"
 projects[views_send][subdir] = "contrib"
 projects[views_send][version] = "1.0-rc3"
 
+projects[olark][subdir] = "contrib"
+projects[olark][version] = "1.0-beta1"
