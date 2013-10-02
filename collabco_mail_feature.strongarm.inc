@@ -67,13 +67,6 @@ function collabco_mail_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'mimemail_mail';
-  $strongarm->value = 'noreply@meta.org.au';
-  $export['mimemail_mail'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'mimemail_name';
   $strongarm->value = 'META members only community';
   $export['mimemail_name'] = $strongarm;
@@ -98,13 +91,6 @@ function collabco_mail_feature_strongarm() {
   $strongarm->name = 'mimemail_textonly';
   $strongarm->value = 0;
   $export['mimemail_textonly'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'site_mail';
-  $strongarm->value = 'noreply@meta.org.au';
-  $export['site_mail'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
