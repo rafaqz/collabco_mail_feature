@@ -1,7 +1,6 @@
 name = Collabco Mail Feature
 core = 7.x
 package = Collabco
-php = 5.2.4
 version = unknown
 project = collabco_mail_feature
 dependencies[] = ckeditor
