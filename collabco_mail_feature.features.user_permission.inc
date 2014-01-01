@@ -37,6 +37,13 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'views_send',
   );
 
+  // Exported permission: 'attachments with views_send'.
+  $permissions['attachments with views_send'] = array(
+    'name' => 'attachments with views_send',
+    'roles' => array(),
+    'module' => 'views_send',
+  );
+
   // Exported permission: 'configure mandrill templates'.
   $permissions['configure mandrill templates'] = array(
     'name' => 'configure mandrill templates',
@@ -44,6 +51,13 @@ function collabco_mail_feature_user_default_permissions() {
       'Admin' => 'Admin',
     ),
     'module' => 'mandrill_template',
+  );
+
+  // Exported permission: 'edit mimemail user settings'.
+  $permissions['edit mimemail user settings'] = array(
+    'name' => 'edit mimemail user settings',
+    'roles' => array(),
+    'module' => 'mimemail',
   );
 
   // Exported permission: 'mass mailing with views_send'.
