@@ -116,12 +116,7 @@ function collabco_mail_feature_views_default_views() {
   $handler->display->display_options['arguments']['gid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['gid']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['arguments']['gid']['specify_validation'] = TRUE;
-  $handler->display->display_options['arguments']['gid']['validate']['type'] = 'node';
-  $handler->display->display_options['arguments']['gid']['validate_options']['types'] = array(
-    'closed_group' => 'closed_group',
-    'group' => 'group',
-  );
-  $handler->display->display_options['arguments']['gid']['validate_options']['access_op'] = 'update';
+  $handler->display->display_options['arguments']['gid']['validate']['type'] = 'og';
   $handler->display->display_options['path'] = 'node/%/mass-mailer';
   $handler->display->display_options['menu']['type'] = 'tab';
   $handler->display->display_options['menu']['title'] = 'Mass Mail';
