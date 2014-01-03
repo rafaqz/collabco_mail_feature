@@ -10,9 +10,9 @@ projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
 
 projects[mandrill][subdir] = "contrib"
-projects[mandrill][version] = "1.4"
+projects[mandrill][version] = "1.5"
 
-projects[mimemail][version] = "1.0-alpha2"
+projects[mimemail][version] = "1.0-beta1"
 projects[mimemail][subdir] = "contrib"
 
 projects[views_send][subdir] = "contrib"
