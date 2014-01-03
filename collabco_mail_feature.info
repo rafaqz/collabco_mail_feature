@@ -4,7 +4,6 @@ package = Collabco
 version = unknown
 project = collabco_mail_feature
 dependencies[] = ckeditor
-dependencies[] = collabco_groups_feature
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = filter
