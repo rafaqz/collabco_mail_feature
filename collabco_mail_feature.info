@@ -13,6 +13,7 @@ dependencies[] = mandrill
 dependencies[] = mandrill_reports
 dependencies[] = mandrill_template
 dependencies[] = mimemail
+dependencies[] = og_context
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_bulk_operations
