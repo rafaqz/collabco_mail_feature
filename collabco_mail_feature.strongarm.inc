@@ -286,7 +286,7 @@ The [site:name] team';
 <br>
 An administrator on the [site:name] has blocked your account.<br>
 <br>
-If this is unexpected or you have further questions, feel free to contact us at contact@meta.org.au<br>
+If this is unexpected or you have further questions, feel free to contact us at [site:mail]<br>
 <br>
 Kind Regards,<br>
 The [site:name] team<br>';
@@ -312,7 +312,7 @@ The [site:name] team<br>';
   $strongarm->name = 'user_mail_status_canceled_body';
   $strongarm->value = 'Hello [user:name],<br>
 <br>
-Your account on the [site:name] has been canceled. You can reach us at contact@support.au with any questions.<br>
+Your account on the [site:name] has been canceled. You can reach us at [site:mail] with any questions.<br>
 <br>
 Kind Regards,<br>
 The [site:name] team<br>';
