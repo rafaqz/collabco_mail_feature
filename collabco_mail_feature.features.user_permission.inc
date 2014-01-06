@@ -10,7 +10,7 @@
 function collabco_mail_feature_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: administer mailsystem.
+  // Exported permission: 'administer mailsystem'.
   $permissions['administer mailsystem'] = array(
     'name' => 'administer mailsystem',
     'roles' => array(
@@ -19,7 +19,7 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'mailsystem',
   );
 
-  // Exported permission: administer mandrill.
+  // Exported permission: 'administer mandrill'.
   $permissions['administer mandrill'] = array(
     'name' => 'administer mandrill',
     'roles' => array(
@@ -28,7 +28,7 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'mandrill',
   );
 
-  // Exported permission: administer views_send.
+  // Exported permission: 'administer views_send'.
   $permissions['administer views_send'] = array(
     'name' => 'administer views_send',
     'roles' => array(
@@ -37,7 +37,7 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'views_send',
   );
 
-  // Exported permission: configure mandrill templates.
+  // Exported permission: 'configure mandrill templates'.
   $permissions['configure mandrill templates'] = array(
     'name' => 'configure mandrill templates',
     'roles' => array(
@@ -46,7 +46,7 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'mandrill_template',
   );
 
-  // Exported permission: mass mailing with views_send.
+  // Exported permission: 'mass mailing with views_send'.
   $permissions['mass mailing with views_send'] = array(
     'name' => 'mass mailing with views_send',
     'roles' => array(
