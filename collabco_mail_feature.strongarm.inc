@@ -25,7 +25,7 @@ function collabco_mail_feature_strongarm() {
     'default-system' => 'MandrillMailSystem',
     'mandrill_test' => 'MandrillMailSystem',
     'mimemail' => 'MandrillMailSystem',
-    'views_send_direct' => 'MimeMailSystem',
+    'views_send_direct' => 'MandrillMailSystem',
   );
   $export['mail_system'] = $strongarm;
 
@@ -33,7 +33,7 @@ function collabco_mail_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'mimemail_engine';
-  $strongarm->value = '';
+  $strongarm->value = 'mimemail';
   $export['mimemail_engine'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -68,7 +68,7 @@ function collabco_mail_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'mimemail_name';
-  $strongarm->value = 'META members only community';
+  $strongarm->value = '';
   $export['mimemail_name'] = $strongarm;
 
   $strongarm = new stdClass();
