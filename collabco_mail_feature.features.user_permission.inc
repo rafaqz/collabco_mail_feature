@@ -83,7 +83,12 @@ function collabco_mail_feature_user_default_permissions() {
   // Exported permission: 'use text format email'.
   $permissions['use text format email'] = array(
     'name' => 'use text format email',
-    'roles' => array(),
+    'roles' => array(
+      'Admin' => 'Admin',
+      'Community Moderator' => 'Community Moderator',
+      'Content Manager' => 'Content Manager',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'filter',
   );
 
