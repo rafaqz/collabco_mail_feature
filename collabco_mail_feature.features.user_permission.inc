@@ -80,6 +80,13 @@ function collabco_mail_feature_user_default_permissions() {
     'module' => 'mimemail',
   );
 
+  // Exported permission: 'use text format email'.
+  $permissions['use text format email'] = array(
+    'name' => 'use text format email',
+    'roles' => array(),
+    'module' => 'filter',
+  );
+
   // Exported permission: 'view mandrill reports'.
   $permissions['view mandrill reports'] = array(
     'name' => 'view mandrill reports',

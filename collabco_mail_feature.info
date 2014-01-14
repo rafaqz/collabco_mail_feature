@@ -33,6 +33,7 @@ features[user_permission][] = configure mandrill templates
 features[user_permission][] = edit mimemail user settings
 features[user_permission][] = mass mailing with views_send
 features[user_permission][] = send arbitrary files
+features[user_permission][] = use text format email
 features[user_permission][] = view mandrill reports
 features[variable][] = mail_system
 features[variable][] = mailsystem_theme
