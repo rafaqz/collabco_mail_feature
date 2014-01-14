@@ -16,7 +16,7 @@ function collabco_mail_feature_filter_default_formats() {
     'name' => 'Email',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -5,
     'filters' => array(
       'filter_html' => array(
         'weight' => -49,
