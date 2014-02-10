@@ -56,7 +56,9 @@ function collabco_mail_feature_user_default_permissions() {
   // Exported permission: 'edit mimemail user settings'.
   $permissions['edit mimemail user settings'] = array(
     'name' => 'edit mimemail user settings',
-    'roles' => array(),
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
     'module' => 'mimemail',
   );
 
