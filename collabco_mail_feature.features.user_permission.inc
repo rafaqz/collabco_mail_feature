@@ -40,7 +40,9 @@ function collabco_mail_feature_user_default_permissions() {
   // Exported permission: 'attachments with views_send'.
   $permissions['attachments with views_send'] = array(
     'name' => 'attachments with views_send',
-    'roles' => array(),
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'views_send',
   );
 
@@ -69,6 +71,7 @@ function collabco_mail_feature_user_default_permissions() {
       'Admin' => 'Admin',
       'Community Moderator' => 'Community Moderator',
       'Content Manager' => 'Content Manager',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'views_send',
   );
