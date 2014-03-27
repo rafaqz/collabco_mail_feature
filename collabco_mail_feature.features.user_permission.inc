@@ -10,6 +10,15 @@
 function collabco_mail_feature_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'administer mail templates'.
+  $permissions['administer mail templates'] = array(
+    'name' => 'administer mail templates',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'mail_edit',
+  );
+
   // Exported permission: 'administer mailsystem'.
   $permissions['administer mailsystem'] = array(
     'name' => 'administer mailsystem',
@@ -74,6 +83,24 @@ function collabco_mail_feature_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'views_send',
+  );
+
+  // Exported permission: 'send arbitrary files'.
+  $permissions['send arbitrary files'] = array(
+    'name' => 'send arbitrary files',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'mimemail',
+  );
+
+  // Exported permission: 'view mandrill reports'.
+  $permissions['view mandrill reports'] = array(
+    'name' => 'view mandrill reports',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'mandrill_reports',
   );
 
   return $permissions;
