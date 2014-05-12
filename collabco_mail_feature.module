@@ -5,3 +5,11 @@
  */
 
 include_once 'collabco_mail_feature.features.inc';
+
+/**
+ * Implements hook_mail_alter().
+ */
+function collabco_mail_feature_mail_alter(&$message) {
+  // Uncomment below to debug email.
+  // dpm($message);
+}
