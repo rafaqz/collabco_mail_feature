@@ -10,6 +10,33 @@
 function collabco_mail_feature_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'access site-wide contact form'.
+  $permissions['access site-wide contact form'] = array(
+    'name' => 'access site-wide contact form',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'contact',
+  );
+
+  // Exported permission: 'access user contact forms'.
+  $permissions['access user contact forms'] = array(
+    'name' => 'access user contact forms',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'contact',
+  );
+
+  // Exported permission: 'administer contact forms'.
+  $permissions['administer contact forms'] = array(
+    'name' => 'administer contact forms',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'contact',
+  );
+
   // Exported permission: 'administer mail templates'.
   $permissions['administer mail templates'] = array(
     'name' => 'administer mail templates',
