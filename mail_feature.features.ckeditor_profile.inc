@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_mail_feature.features.ckeditor_profile.inc
+ * mail_feature.features.ckeditor_profile.inc
  */
 
 /**
  * Implements hook_ckeditor_profile_defaults().
  */
-function collabco_mail_feature_ckeditor_profile_defaults() {
+function mail_feature_ckeditor_profile_defaults() {
   $data = array(
     'Email' => array(
       'name' => 'Email',

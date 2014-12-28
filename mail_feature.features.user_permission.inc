@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_mail_feature.features.user_permission.inc
+ * mail_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function collabco_mail_feature_user_default_permissions() {
+function mail_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'access site-wide contact form'.

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_mail_feature.features.inc
+ * mail_feature.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function collabco_mail_feature_ctools_plugin_api($module = NULL, $api = NULL) {
+function mail_feature_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -16,6 +16,6 @@ function collabco_mail_feature_ctools_plugin_api($module = NULL, $api = NULL) {
 /**
  * Implements hook_views_api().
  */
-function collabco_mail_feature_views_api($module = NULL, $api = NULL) {
+function mail_feature_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
