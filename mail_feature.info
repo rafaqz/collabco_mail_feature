@@ -1,6 +1,6 @@
-name = Collabco Mail Feature
+name = Mail Feature
 core = 7.x
-package = Collabco
+package = Features
 version = unknown
 project = mail_feature
 dependencies[] = ckeditor

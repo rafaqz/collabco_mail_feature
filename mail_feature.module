@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the Collabco Mail Feature feature.
+ * Code for the Mail Feature.
  */
 
 include_once 'mail_feature.features.inc';
